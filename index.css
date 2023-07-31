@@ -1,0 +1,166 @@
+/* CSS styles for the landing page */
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    -webkit-text-fill-color: #f2f2f2;
+    background-color: #00031f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: left;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration:solid;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f6f4f6;
+  }
+
+  .slogan{
+    font-size: 32px;
+    font-weight: 900px;
+    color: rgb(2, 2, 3);
+    font-style: italic;
+  }
+  
+  .welcome{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  .hero-section {
+    background-image: url('/img/heroSection.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .registration-form {
+    display: flex;
+    align-items: center;
+    background-color:#00031f;
+    text-align: left;
+    margin-top: 0;
+    display: -ms-grid;
+    width: 100%;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+
+    
+  }
+
+  .thumbnil {
+    mask-image: url('/img/Vivek-Bindra-Vector-Illustration-Thumbnail-Large.jpg');
+    width:100%;
+    margin-top: 10px;
+    image-resolution: 1080px;
+    
+  }
+
+  .h2{
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+  }
+  
+
+  .info {
+    background-color:#FFB400;
+    width: 280px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 100%;
+    -webkit-text-fill-color: #b1154c;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'almaden_sansregular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    margin: 120px;
+    padding: 20px;
+  }
+  
+  
+  .agenda-section {
+    -webkit-text-fill-color: #f2f2f2;
+    background-color: #00031f;
+    padding: 50px;
+    max-width: max-content;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .thankyou-section {
+    background-color: #f3f4f9;
+    padding: 50px;
+    text-align: right;
+    max-width: max-content;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #EA5455;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
